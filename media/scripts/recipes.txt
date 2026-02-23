@@ -1,0 +1,16 @@
+/* Only is called base until pz fixes the bug that requires the module to be called Base. */
+/* module CarBombs { */
+module Base {
+	craftRecipe MakeAcceleratorBomb {
+		tags = AnySurfaceCraft;RightClickOnly,
+		/* pipe bomb, crafted trigger, scrap electronics, wire, tape? */
+		inputs {
+		},
+		/* Base.AcceleratorBomb? */
+		outputs {
+		}
+		category = Electrical,
+		e
+		skillrequired = Electricity:2;Mechanics:4,
+	}
+}
