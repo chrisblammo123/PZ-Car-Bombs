@@ -6,11 +6,11 @@ module Base {
 		/* pipe bomb, crafted trigger, scrap electronics, wire, tape? */
 		inputs {
 		},
-		/* Base.AcceleratorBomb? */
 		outputs {
+			/* convert this to a mapper? */
+			item 1 Base.AcceleratorBomb
 		}
 		category = Electrical,
-		e
 		skillrequired = Electricity:2;Mechanics:4,
 	}
 }

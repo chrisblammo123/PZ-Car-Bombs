@@ -1,0 +1,35 @@
+module Base {
+	item AcceleratorBomb {
+		ItemType = base:weapon,
+		/* The rest copied from https://pzwiki.net/wiki/Pipe_Bomb_with_Timer#Code */
+		DisplayCategory = Explosives,
+        Weight = 1.5,
+        Icon = PipeBombTimer, /* TODO: Change to own icon. */
+        CanBePlaced = true, /* dont know if this is correct */
+        ExplosionPower = 90,
+        ExplosionRange = 7,
+        ExplosionSound = PipeBombExplode,
+        FireStartingEnergy = 0,
+        FireStartingChance = 0, /* might want to tweak so it starts fires? */
+        ExplosionTimer = 10, /* might want to remove this also */
+        MaxDamage = 0.0,
+        MaxHitcount = 0,
+        MaxRange = 10.0,
+        MinDamage = 0.0,
+        MinimumSwingtime = 1.5,
+        PhysicsObject = Base.PipeBomb,
+        PlacedSprite = constructedobjects_01_32,
+        SwingAmountBeforeImpact = 0.1,
+        SwingAnim = Throw,
+        SwingSound = PipeBombThrow,
+        Swingtime = 1.5,
+        UseSelf = true,
+        WeaponSprite = PipeBombSensor, /* Might want to change this to own sprite */
+        WorldStaticModel = PipeBombSensor, /* Might want to change this to own model */
+        ConditionMax = 1,
+		/* Should look into these other parameters */
+		/* https://pzwiki.net/wiki/Remote_Pipe_Bomb#Code */
+		canberemote = value,
+		triggerexplosiontimer = value,
+	}
+}
