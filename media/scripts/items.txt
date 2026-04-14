@@ -25,7 +25,7 @@ module Base {
         Swingtime = 1.5,
         UseSelf = true,
         WeaponSprite = PipeBombSensor, /* Might want to change this to own sprite */
-        WorldStaticModel = PipeBombSensor, /* Might want to change this to own model */
+        /*WorldStaticModel = PipeBombSensor, /* Might want to change this to own model */
         ConditionMax = 1,
 		/* Should look into these other parameters */
 		/* https://pzwiki.net/wiki/Remote_Pipe_Bomb#Code */
